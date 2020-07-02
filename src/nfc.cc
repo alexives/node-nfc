@@ -315,7 +315,7 @@ namespace {
                     }
 
                     int cnt, len, res;
-                    uint8_t command[2], data[16 * 48], *dp;
+                    uint8_t command[2], data[16 * 16], *dp;
                     for (n = 0, cc = 0x0f, dp = data, cnt = sizeof data, len = 0;
                              n < cc;
                              n += 4, dp += res, cnt -= res, len += res) {
